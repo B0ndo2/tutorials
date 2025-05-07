@@ -1,3 +1,9 @@
+This version add some scripts to use your own dataset and a working config (in the configuration directory)
+you can build using docker or podman
+
+podman build -t coral-tutorials https://github.com/google-coral/tutorials.git#:docker/object_detection
+
+
 # Colab tutorials for Coral
 
 These Jupyter notebooks provide interactive Python tutorials for
